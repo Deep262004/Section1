@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            *{
+                  font-family: Roboto;
+            }
+
+            .card{
+                  border: 2px solid red;
+                  width: 20%;
+
+                  border-radius: 10px;
+                  padding: 30px;
+                  box-sizing: border-box;
+                  box-shadow: 10px 10px 10px 0 black;
+                  background-color: white;
+            }
+
+            body{
+                  /* background-color: lightpink; */
+                  /* background-image:  url( https://tse3.mm.bing.net/th?id=OIP.U0XuBiNDPqfcbRPXa-Lx-AHaEo&pid=Api&P=0&h=180); */
+                  /* background-image: linear-gradient(40deg, #ffc2c2, #ffffc2); */
+                  background-image: linear-gradient(40deg, #ffc2c2, #ffffc233), url(https://wallpaperaccess.com/full/378016.jpg);
+                  background-size: cover;
+
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 100vh;
+            }
+
+            .form-title{
+                  text-align: center;
+                  font-family: Roboto;
+            }
+
+            .text-input{
+                  width: 100%;
+                  padding: 5px 10px;
+                  box-sizing: border-box;
+                  border-radius: 5px;
+                  border: 1px solid black;
+            }
+
+            .btn{
+            background-color: blueviolet;
+            color: white;
+            width: 100%;
+            margin-top: 30px;
+            padding: 5px;
+            border-radius: 5px;
+            border:none;
+            transition-duration: 0.3s;
+            outline: 3px solid blueviolet;
+            }
+
+            .btn:hover:hover{
+                  background-color: violet;
+                  transform: translateY(-5px);
+
+            }
+      </style>
+</head>
+<body>
+      <div class="card">
+            <h2 class="form-title">Login Form</h2>
+            <form>
+                  <label for="">Email Address</label>
+                  <input type="email" class="text-input">
+
+                  <label for="">Password</label>
+                  <input type="Password" class="text-input">
+                  
+                  <button type="submit" class="btn">login</button>
+
+            </form>
+      </div>
+</body>
+</html>
